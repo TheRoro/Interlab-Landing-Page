@@ -7,15 +7,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>InterLab</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400&family=News+Cycle:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
-  <body class="p-3 mb-2 bg-dark text-white">
+  <body class="bg-dark text-white">
      
-    <div id="app" class="container mt-5">
-      <h1>{{title}}</h1>
+    <div id="app" class="container-fluid banner">
       <div class="row">
-        <div class="col-md-12"></div>
+        <div class="col-md-12">
+          <nav class="navbar navbar-md">
+            <div class="navbar-brand">{{title}}</div>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-8 offset-md-2 info">
+          <h1 class="text-center">{{title}}</h1>
+          <p class="text-center">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit.
+          </p>
+          <a href="#" class="btn btn-md text-center">GET STARTED</a>
+        </div>
       </div>
     </div>
 

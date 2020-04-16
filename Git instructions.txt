@@ -1,1 +1,9 @@
-cd Desktop/Rodrigo/UPC/2020/"Ciclo V"/Web/"Landing Page"
+1. Open Git Bash
+2. Type pwd
+3. Type cd Desktop/Rodrigo/UPC/2020/"Ciclo V"/Web/"Landing Page"
+4. Type git init
+5. Type git add .
+6. Type git commit -m "(text of the commit)"
+7. Type git remote -v
+8. git push -f github master
+9. You are done!
