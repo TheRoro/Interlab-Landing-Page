@@ -1,10 +1,12 @@
 const app = new Vue({
     el: '#app',
     data: {
-        title: 'Bienvenido a InterLab',
-        users: [
-            {name: 'Company', quantity: 0},
-            {name: 'Student', quantity: 0}
-        ]
+        body_bg: 'bg-dark',
+        title: 'INTERLAB',
+        background: 'bg-warning',
+        color: true
+    },
+    methods: {
+
     }
 })
