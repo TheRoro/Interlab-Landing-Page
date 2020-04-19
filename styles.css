@@ -4,6 +4,7 @@ body{
     background: black;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    overflow: hidden;
 }
 .banner{
     height: 100vh;
@@ -13,7 +14,7 @@ body{
     background:url('assets//background1.png');
     background-position: top;
     background-size: cover;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 nav{
     margin-top: 0;
@@ -26,10 +27,18 @@ nav{
 }
 
 .nav_item{
-    padding-left: 10%;
+    padding-left: 6%;
 }
-
-
+.nav_item_2{
+    position: absolute;
+    left: 936px;
+    top: 27px;
+}
+.nav_item_3{
+    position: absolute;
+    left: 1140px;
+    top: 15px;
+}
 
 h1{
     padding-left: 8%;
@@ -64,43 +73,52 @@ h1{
 
 
 .info2{
-    margin-left: 14%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.info3{
+    margin-left: 12%;
+    margin-top: 1.6%;
 }
 
 .banner .info{
-    margin-top: 10%;
+    margin-top: 15.5%;
+    margin-left: 14.5%;
     transform: translateY(-10%);
 }
 .banner .info h1{
-    font-size: 2.2em;
+    font-size: 3em;
     font-weight: 700;
     letter-spacing: 0px;
 }
 .banner .info2 p{
-    font-size: 1em;
-    font-weight: 300;
-    color: #aaa;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #282A3F;
     letter-spacing: 0px;
 }
-.banner .info2 a{
+.banner .info3 a{
     height: 100vh;
     width: 100%;
-    margin-left: 0%;
-    margin-bottom: 20%;
     background:url('assets//button_start.png');
-    padding: 10px 80px;
+    padding: 18px 120px;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 40px;
 }
 
+.laptop{
+    position: relative;
+    top: -195px;
+    left: -96px;
+}
 .banner .laptop a{
     height: 100vh;
     width: 100%;
     margin-left: 0%;
-    background:url('assets//laptop.png');
-    padding: 300px 300px;
+    background:url('assets//laptop_cut.png');
+    padding: 470px 520px;
     font-size: 1em;
     background-position: top;
     background-size: cover;

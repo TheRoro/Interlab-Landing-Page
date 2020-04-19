@@ -6,7 +6,9 @@ const app = new Vue({
         background: 'bg-warning',
         color: true,
         subtitle1: 'Obtén ofertas de pasantías relevantes',
-        text1: 'Consigue pasantías de todo el mundo, que se ajusten a tus necesidades, con solo responder unas preguntas simples.'
+        text1: 'Consigue pasantías de todo el mundo,',
+        text2: 'que se ajusten a tus necesidades,',
+        text3: 'con solo responder unas preguntas simples.'
     },
     methods: {
 
