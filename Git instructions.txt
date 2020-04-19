@@ -1,3 +1,4 @@
+pwd
 1. Open Git Bash
 2. Type pwd
 3. Type cd Desktop/Rodrigo/UPC/2020/"Ciclo V"/Web/"Landing Page"
