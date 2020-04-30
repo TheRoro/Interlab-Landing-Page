@@ -1581,3 +1581,1516 @@
 
 }
 
+@media only screen and (max-width: 600px){
+  .landingpage{
+    display: none;
+  }
+  .androidMobile1 {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+
+}
+
+.androidMobile1 .bggraphicmask {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/bggraphicmask.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 51.444444vw; /* 185.2/360 */
+  height: 66.325vw; /* 238.77/360 */
+  right: -0px;
+  top: -10.00vw;
+  z-index: -2;
+}
+
+.androidMobile1 .bggraphicmask .path214 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: transparent;
+    box-shadow: none;
+    width: 185.21px; /* 185.21px/360px */
+  height: 238.77px; /* 238.77px/640px */
+  left: 174.27px; /* 174.27px/360px */
+  top: 0.00px;
+
+}
+
+.androidMobile1 .bggraphicmask .rectangle686 {
+  position: absolute;
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: solid;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: solid;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: solid;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 100vw; /* 360.00px/360 */
+  height: 100vw; /* 640.00px/640 */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 86.944444vw; /* 313.00px/360px */
+  height: 4.0625vw; /* 26.00px/640px */
+  left: 6.388889vw; /* 23.00px/360px */
+  top: 4.38125vh; /* 21/640 */
+
+}
+
+.androidMobile1 .topbar .interlab {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 0.00px;
+    letter-spacing: 0.76px;
+    color: rgba(62, 148, 201, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 5.555556vw; /* 20.00px/360px */
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    width: 24.722222vw; /* 89.00px/360px */
+  height: 7.222222vw; /* 26.00px/360px */
+  left: 0.00px;
+  top: 60%;
+
+}
+
+.androidMobile1 .topbar .interlab .interlab-0 {
+  color: rgba(40, 42, 63, 1);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5.555556vw; /* 20.00px/360px */
+  font-family: 'Gilroy ☞', Arial;
+  letter-spacing: 0.76;
+  text-decoration: none;
+}
+
+.androidMobile1 .topbar .interlab .interlab-5 {
+  color: rgba(62, 148, 201, 1);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5.555556vw; /* 20.00px/360px */
+  font-family: 'Gilroy ☞', Arial;
+  letter-spacing: 0.76;
+  text-decoration: none;
+}
+
+.androidMobile1 .topbar .probarbutton {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 17.777778vw; /* 64.00px/360px */
+  height: 5vw; /* 18.00px/360px */
+  left: 79.552716%; /* 249.00px/313px */
+  top: 0px;
+
+border: none;
+outline: none;
+}
+.androidMobile1 .topbar .probarbutton .hoverstate7a9e08c7 {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 17.777778vw; /* 64.00px/360px */
+  height: 5vw; /* 18.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .probarbutton .hoverstate7a9e08c7 .rectangle6718b0376bf {
+  position: absolute;
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(255, 255, 255, 1);
+    border-left-style: solid;
+    border-left-width: 1.00px;
+    border-right-color: rgba(255, 255, 255, 1);
+    border-right-style: solid;
+    border-right-width: 1.00px;
+    border-top-color: rgba(255, 255, 255, 1);
+    border-top-style: solid;
+    border-top-width: 1.00px;
+    border-top-left-radius: 25.00px;
+    border-top-right-radius: 25.00px;
+    border-bottom-left-radius: 25.00px;
+    border-bottom-right-radius: 25.00px;
+    box-shadow: none;
+    width: 17.777778vw; /* 64.00px/360px */
+  height: 5vw; /* 18.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .probarbutton .hoverstate7a9e08c7 .probar20a5f687 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 0px;
+    letter-spacing: 0.18px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 1.944444vw; /* 7.00px/360px */
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 6.111111vw; /* 22.00px/360px */
+  height: 2.5vw; /* 9.00px/360px */
+  left: 32.8125%; /* 21/64 */
+  top: 50%;
+
+}
+
+.androidMobile1 .topbar .probarbutton .defaultstatedc35d18d {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 17.777778vw; /* 64.00px/360px */
+  height: 5vw; /* 18.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .probarbutton .defaultstatedc35d18d .rectangle671 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 25.00px;
+    border-top-right-radius: 25.00px;
+    border-bottom-left-radius: 25.00px;
+    border-bottom-right-radius: 25.00px;
+    box-shadow: none;
+    width: 17.777778vw; /* 64.00px/360px */
+  height: 5vw; /* 18.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .probarbutton .defaultstatedc35d18d .probar {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 0.00px;
+    letter-spacing: 0.18px;
+    color: rgba(75, 123, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 1.944444vw; /* 7.00px/360px */
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 6.111111vw; /* 22.00px/360px */
+  height: 2.5vw; /* 9.00px/360px */
+  left: 32.8125%; /* 21/64 */
+  top: 50%; /* -8.50px/360px */
+
+}
+
+
+
+
+.androidMobile1 .topbar .probarbutton:hover > .hoverstate7a9e08c7 {
+display: inherit;
+}
+.androidMobile1 .topbar .probarbutton:hover > .defaultstatedc35d18d {
+display: none;
+}
+
+
+.androidMobile1 .topbar .socialmedia {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/socialmedia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 11vw; /* 38.00px/360 */
+  height: 1.666667vw; /* 6.00px/360 */
+  left: 61.980831%; /* 194.00px/313px */
+  top: 40%;
+
+}
+
+.androidMobile1 .topbar .socialmedia .facebook {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 6.00px;
+  height: 6.00px;
+  left: 32.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .facebook .rectangle392 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: transparent;
+    border-bottom-color: rgba(149, 152, 154, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(149, 152, 154, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(149, 152, 154, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(149, 152, 154, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 6.00px;
+  height: 6.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .facebook .path1 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 3.04px;
+  height: 5.82px;
+  left: 1.45px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .twitter {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 6.00px;
+  height: 6.00px;
+  left: 16.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .twitter .rectangle393 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: transparent;
+    border-bottom-color: rgba(149, 152, 154, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(149, 152, 154, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(149, 152, 154, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(149, 152, 154, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 6.00px;
+  height: 6.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .twitter .path2 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 5.82px;
+  height: 4.72px;
+  left: 0.00px;
+  top: 0.73px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .instagram {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 6.00px;
+  height: 6.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .topbar .socialmedia .instagram .path3 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 5.82px;
+  height: 5.82px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .laptopmask {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/laptopmask.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 100vw; /* 383.00px/360px */
+  height: 55vh; /* 309/640 */
+  right: -0px;
+  top: 5vw; /* 65/640 */
+  z-index: -1;
+
+}
+
+.androidMobile1 .laptopmask .macbookAirPsd {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/macbookAirPsd.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 171.666667vw; /* 618.00px/360 */
+  height: 128.888889vw; /* 464.00px/360px */
+  left: -24.00px;
+  top: -100.00px;
+
+}
+
+.androidMobile1 .laptopmask .rectangle672 {
+  position: absolute;
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: solid;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: solid;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: solid;
+    border-top-width: 1.00px;
+    border-top-left-radius: 0.00px;
+    border-top-right-radius: 0.00px;
+    border-bottom-left-radius: 0.00px;
+    border-bottom-right-radius: 0.00px;
+    box-shadow: none;
+    width: 106.388889vw; /* 383.00px/360 */
+  height: 85.833333vw; /* 309.00px/360 */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 85.833333vw; /* 309.00px/360px */
+  height: 61.388889vw; /* 221.00px/360px */
+  left: 7.5vw; /* 27.00px/360px */
+  top: 59.53125vh; /* 381/640 */
+
+}
+
+.androidMobile1 .cta .obtenOfertasDepasantiasRelevantes {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 8.611111vw; /* 31.00px/360px */
+    letter-spacing: 0.15px;
+    color: rgba(40, 42, 63, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 8.611111vw; /* 31.00px/360px */
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    width: 85.833333vw; /* 309.00px/360px */
+  height: 19.444444vw; /* 70.00px/360px */
+  left: 0.00px;
+  top: 4.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 44.722222vw; /* 161.00px/360px */
+  height: 10vw; /* 36.00px/360px */
+  left: 25.242718%; /* 78/309 */
+  top: 42.811321%; /* 95.00px/212 */
+
+border: none;
+outline: none;
+}
+.androidMobile1 .cta .empezaryabutton .hoverstate {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    display: none;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/hoverstate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 44.722222vw; /* 161.00px/360px */
+  height: 10vw; /* 36.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .hoverstate .rectangle6734a38499d {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(20, 69, 204, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 30.00px;
+    border-top-right-radius: 30.00px;
+    border-bottom-left-radius: 30.00px;
+    border-bottom-right-radius: 30.00px;
+    box-shadow: none;
+    width: 44.722222vw; /* 161.00px/360px */
+  height: 10vw; /* 36.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .hoverstate .inside1b662bc6 {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 27.222222vw; /* 98.00px/360px */
+  height: 5.277778vw; /* 19.00px/360px */
+  left: 32.00px;
+  top: 9.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .hoverstate .inside1b662bc6 .empiezaYaef5fc95f {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 72.00px;
+    letter-spacing: 0.38px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 15.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 82.00px;
+  height: 19.00px;
+  left: 16.00px;
+  top: -26.50px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .hoverstate .inside1b662bc6 .forwardArrow59ecdf9e {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 10.84px;
+  height: 10.84px;
+  left: 0.00px;
+  top: 4.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .hoverstate .inside1b662bc6 .forwardArrow59ecdf9e .path10bbc9d751 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 10.84px;
+  height: 10.84px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("assets/defaultstate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 44.722222vw; /* 161.00px/360px */
+  height: 10vw; /* 36.00px/360px */
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate .rectangle673 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(75, 123, 255, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1.00px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1.00px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1.00px;
+    border-top-left-radius: 30.00px;
+    border-top-right-radius: 30.00px;
+    border-bottom-left-radius: 30.00px;
+    border-bottom-right-radius: 30.00px;
+    box-shadow: none;
+    width: 161.00px;
+  height: 36.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate .inside {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 98.00px;
+  height: 19.00px;
+  left: 32.00px;
+  top: 9.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate .inside .empiezaYa {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 72.00px;
+    letter-spacing: 0.38px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 15.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 82.00px;
+  height: 19.00px;
+  left: 16.00px;
+  top: -26.50px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate .inside .forwardArrow {
+
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 10.84px;
+  height: 10.84px;
+  left: 0.00px;
+  top: 4.00px;
+
+}
+
+.androidMobile1 .cta .empezaryabutton .defaultstate .inside .forwardArrow .path10 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 1);
+    box-shadow: none;
+    width: 10.84px;
+  height: 10.84px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+
+
+
+.androidMobile1 .cta .empezaryabutton:hover > .hoverstate {
+display: inherit;
+}
+.androidMobile1 .cta .empezaryabutton:hover > .defaultstate {
+display: none;
+}
+
+
+.androidMobile1 .cta .consiguePasantiasDeTodoElMundoqueSeAjustenATusNecesidadesconSoloResponderUnasPreguntasSimples {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 6.388889vw; /* 23.00px/360px */
+    letter-spacing: 0.28px;
+    color: rgba(40, 42, 63, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 3.888889vw; /* 14.00px/360px */
+    font-weight: 500;
+  font-style: normal;
+    font-family: 'Gilroy ☞', Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    width: 85.833333vw; /* 309.00px/360px */
+  height: 18.055556vw; /* 65.00px/360px */
+  left: 0.00px;
+  bottom: 0%;
+
+}
+}
