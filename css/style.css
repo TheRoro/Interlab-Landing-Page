@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
 /* CSS Variables */
 :root {
   --primary-color: #f92c3c;
@@ -39,10 +39,85 @@ a {
 }
 
 .section h1 {
+  font-family: 'Red Hat Display', sans-serif;
   padding-top: 4.5rem;
   padding-bottom: 0rem;
   font-size: 4rem;
 }
+
+*, *:before, *:after{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+    ;
+}
+div.foo{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.letter{
+  margin-top: 0.5em;
+  margin-left: 0em;
+  display: inline-block;
+  font-weight: 900 !important;
+  font-size: 5em;
+
+  position: relative;
+  color: #00B4F1;
+  transform-style: preserve-3d;
+  perspective: 400;
+  z-index: 1;
+}
+.letter:before, .letter:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+.letter, .letter:before, .letter:after{
+  transition: all 0.3s ease-in-out;
+}
+.letter:before{
+  color: #fff;
+  text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+.letter:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter:hover:before{
+  color: #fafafa;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+.letter:hover:after{
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
+
 
 .section h3 {
   padding-top: 0rem;
@@ -55,6 +130,7 @@ section#presentation {
 }
 
 .section#presentation h1 {
+
   padding-top: 4.5rem;
   font-size: 4rem;
   color: white;
@@ -66,6 +142,8 @@ section#presentation {
 }
 
 .section#presentation p {
+  font-family: 'Khula', sans-serif;
+  font-weight: 300;
   font-size: 1.3rem;
   color: white;
 }
@@ -90,6 +168,7 @@ footer .footer-cols {
   padding: 2rem;
   text-align: left;
   font-size: 14px;
+
 }
 
 footer .footer-cols ul {
@@ -101,11 +180,18 @@ footer .footer-cols ul li:first-child {
   padding-bottom: 0.5rem;
   border-bottom: #444 solid 1px;
   margin-bottom: 1rem;
+
+}
+
+footer .footer-cols ul li a{
+  color: black;
 }
 
 footer .footer-bottom {
   background: #333;
   padding: 1rem;
+  color: white;
+
 }
 
 /* Utility Classes */
@@ -117,7 +203,14 @@ footer .footer-bottom {
 }
 
 .lead {
+  margin-bottom: 3em;
+  font-size: 1.3em;
+}
+
+.lead1 {
   font-size: 1.3rem;
+  text-align: justify;
+  width: 90%;
 }
 
 .text-center {
@@ -126,6 +219,7 @@ footer .footer-bottom {
 
 /* Buttons */
 .btn {
+  align-content: center;
   padding: 1rem;
   color: #fff;
   display: inline-block;
@@ -267,6 +361,14 @@ nav a#openup {
 
 .cf {
   zoom: 1;
+}
+
+.nav-element{
+  height: 4.38em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 780px) {
