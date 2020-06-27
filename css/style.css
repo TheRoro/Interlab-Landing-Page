@@ -30,19 +30,15 @@ a {
 
 /* Section */
 .section {
-  padding: 2rem 0;
+  padding: 3vw 0;
 }
 
-.section-head {
-  font-size: 2.5rem;
-  margin: 0;
-}
 
 .section h1 {
   font-family: 'Red Hat Display', sans-serif;
-  padding-top: 4.5rem;
-  padding-bottom: 0rem;
-  font-size: 4rem;
+  padding-top: 0vw;
+  margin-bottom: 0;
+  font-size: 5.5vw;
 }
 
 *, *:before, *:after{
@@ -59,14 +55,14 @@ div.foo{
   text-align: center;
 }
 .letter{
-  margin-top: 0.5em;
-  margin-left: 0em;
+  margin-top: 3vw;
+  margin-left: 0vw;
   display: inline-block;
   font-weight: 900 !important;
-  font-size: 5em;
+  font-size: 6vw;
 
   position: relative;
-  color: #00B4F1;
+  color: rgba(0,0,0,.8);
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
@@ -119,32 +115,23 @@ div.foo{
 }
 
 
-.section h3 {
-  padding-top: 0rem;
-  font-size: 2rem;
-}
 
 section#presentation {
-  background: url(../img/bg-presentation.jpg);
-  padding: 3rem 0;
+  background: rgb(66,115,236);
+ background: linear-gradient(90deg, rgba(66,115,236,1) 20%, rgba(0,212,255,1) 93%);
+  padding: 4vw 0;
 }
 
-.section#presentation h1 {
-
-  padding-top: 4.5rem;
-  font-size: 4rem;
-  color: white;
-}
 
 .section#presentation h3 {
-  font-size: 2rem;
+  font-size: 2.5vw;
   color: white;
 }
 
 .section#presentation p {
   font-family: 'Khula', sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.5vw;
   color: white;
 }
 
@@ -165,9 +152,9 @@ footer .footer-cols {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  padding: 2rem;
+  padding: 2vw;
   text-align: left;
-  font-size: 14px;
+  font-size: 1.1vw;
 
 }
 
@@ -176,20 +163,22 @@ footer .footer-cols ul {
 }
 
 footer .footer-cols ul li:first-child {
-  font-size: 1.2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: #444 solid 1px;
-  margin-bottom: 1rem;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+  border-bottom: #444 solid 0.1vw;
+  margin-bottom: 1vw;
 
 }
 
 footer .footer-cols ul li a{
   color: black;
+  font-size: 1.2vw;
 }
 
 footer .footer-bottom {
   background: #333;
-  padding: 1rem;
+  font-size: 1.4vw;
+  padding: 1vw;
   color: white;
 
 }
@@ -199,16 +188,23 @@ footer .footer-bottom {
   max-width: 1180px;
   text-align: center;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 3vw;
+}
+
+.container h3{
+  font-size: 3vw;
+}
+
+.container a{
+  font-size: 1.3vw;
 }
 
 .lead {
-  margin-bottom: 3em;
-  font-size: 1.3em;
+  margin-bottom: 3vw;
+  font-size: 1.7vw;
 }
 
 .lead1 {
-  font-size: 1.3rem;
   text-align: justify;
   width: 90%;
 }
@@ -220,7 +216,7 @@ footer .footer-bottom {
 /* Buttons */
 .btn {
   align-content: center;
-  padding: 1rem;
+  padding: 1.3vw;
   color: #fff;
   display: inline-block;
   border-radius: 15px;
@@ -242,35 +238,10 @@ footer .footer-bottom {
   background: var(--secondary-color-hover);
 }
 
-/* Text colors */
-.text-primary {
-  color: var(--primary-color);
-}
-
-.text-secondary {
-  color: var(--secondary-color);
-}
-
-.text-light {
-  color: var(--light-color);
-}
-
-.bg-light {
-  background: var(--light-color);
-  color: #333;
-}
-
-.mb {
-  margin-bottom: 1rem;
-}
-
-.mt {
-  margin-top: 1rem;
-}
 
 /* Navigation */
 nav {
-  height: 70px;
+  height: 5vw;
   width: 100%;
   background:#181820;
   color: white;
@@ -286,15 +257,18 @@ nav li {
 }
 nav a {
   display: inline-block;
-  width: 100px;
+  width: 8vw;
   text-align: center;
   text-decoration: none;
-  padding: 10px 3px;
+  margin-top: 0.5vw;
+  padding-bottom: 1vw;
   color: white;
   text-decoration: none;
 }
 nav li:hover {
   background-color: #17cb9e;
+
+  /*background: radial-gradient(circle, rgba(23,203,158,1) 0%, rgba(23,203,124,1) 86%);*/
 }
 nav a#openup {
   display: none;
@@ -318,16 +292,7 @@ nav a#openup {
     float: left;
     position: relative;
   }
-  nav a {
-    text-align: left;
-    width: 100%;
-    text-indent: 25px;
-    background: #333;
-    border-bottom: 1px solid #555;
-  }
-  nav a:hover {
-    background: #444;
-  }
+
   nav a#openup:after {
     content: '|||';
     transform: rotate(-90deg);
@@ -364,8 +329,9 @@ nav a#openup {
 }
 
 .nav-element{
-  height: 4.38em;
+  height: 4.5vw;
   font-weight: 500;
+  font-size: 1.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,6 +339,8 @@ nav a#openup {
 
 @media screen and (max-width: 780px) {
   .laptop {
+    margin-top: 0;
+    padding-top: 0;
     grid-template-columns: 1fr;
   }
 
