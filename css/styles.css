@@ -1,0 +1,273 @@
+@font-face{
+  font-family:'Gilroy Medium';
+  src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'Gilroy ExtraBold';
+  src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(241,245,251);
+  background: linear-gradient(103deg, rgba(241,245,251,1) 0%, rgba(228,236,248,1) 52%, rgba(241,245,251,1) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6f7b88;
+}
+
+* {
+  margin: 0;
+  font-family: 'Gilroy Medium';
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(241,245,251);
+  background: linear-gradient(103deg, rgba(241,245,251,1) 0%, rgba(228,236,248,1) 52%, rgba(241,245,251,1) 100%);
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-logo-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+
+.nav-menu {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: #697785;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link:hover {
+  color: #2f3a46;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-family: 'Gilroy ExtraBold';
+  color: #2f3a46;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-menu {
+    width: 65%;
+  }
+  .nav-logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav-menu {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-menu {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-menu {
+    box-sizing: border-box;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .nav-link {
+    margin: .5rem;
+  }
+}
+
+.main, .student, .company, .mision, .vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #091841;
+  margin: 2rem;
+  font-size: calc(26px + 2.5vw);
+  font-family: 'Gilroy Medium';
+  text-align: center;
+}
+
+.cta-btn {
+  background: #1E40C8;
+  padding: 1.2rem 3rem;
+  border-radius: 10px;
+  border: none;
+  color: #e2e4f0;
+  font-size: 1.1rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem;
+}
+
+.cta-btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.mockup {
+  margin: 3rem;
+  width: 65%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.student-container, .company-container, .mision-container, .vision-container {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  margin: 4rem;
+}
+
+.student-container, .mision-container {
+  flex-direction: row-reverse;
+}
+
+.left-col, .right-col {
+  display: flex;
+}
+
+.left-col, .left-col2 {
+  box-sizing: border-box;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.left-col2 {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.right-col {
+  width: 50%;
+}
+
+.sub-title, .sub-title2 {
+  color: #091841;
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  font-family: 'Gilroy Medium';
+  width: 80%;
+}
+
+.text, .text2 {
+  color: #697785;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  width: 70%;
+}
+
+.sub-title2, .text2 {
+  text-align: end;
+}
+
+.mockup-right-col {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+footer {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .student-container, .company-container, .mision-container, .vision-container {
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .left-col, .left-col2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-title, .sub-title2, .text, .text2 {
+    width: 90%;
+    text-align: center;
+  }
+  .right-col {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .mockup {
+    width: 80%;
+  }
+  .mockup-right-col {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta-btn {
+    padding: 1rem 2rem;
+  }
+  .mockup {
+    width: 90%;
+  }
+  .mockup-right-col {
+    width: 90%;
+  }
+  .student-container, .company-container, .mision-container, .vision-container {
+    flex-direction: column;
+    margin: .5rem;
+  }
+  .left-col, .left-col2 {
+    padding: 2rem;
+  }
+  .sub-title, .sub-title2, .text, .text2 {
+    width: 100%;
+  }
+  footer {
+    height: 10vh;
+  }
+}
