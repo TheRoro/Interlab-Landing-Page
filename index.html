@@ -2,91 +2,88 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
-  <title>InterLab</title>
-  <link rel="shortcut icon" type="image/png" href="img/favicon-32.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <title>InterLab</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon-32.png" />
 </head>
 <header>
-  <nav class="navbar">
-    <div class="nav-logo-container">
-      <a class="nav-link nav-logo" href="#">InterLab</a>
-    </div>
-    <div class="nav-menu">
-      <a class="nav-link" href='#student'>¿Eres Estudiante?</a>
-      <a class="nav-link" href='#company'>¿Eres Empresa?</a>
-      <a class="nav-link" href='#mision'>Misión</a>
-      <a class="nav-link" href='#vision'>Visión</a>
-    </div>
-  </nav>
+    <a class="logo" href="#main">InterLab</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+            <li><a href="#student">¿Eres Estudiante?</a></li>
+            <li><a href="#company">¿Eres Empresa?</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
 </header>
+
 <body>
-  <section class="main" id="main">
-    <h1 class="title">Encuentra las mejores pasantías</h1>
-    <button class="cta-btn">Empieza ya</button>
-    <img class="mockup" src="img/mockup1.png">
-  </section>
-  <section class="student" id="student">
-    <div class="student-container">
-      <div class="left-col">
-        <h2 class="sub-title">Obtén ofertas de pasantías relevantes</h2>
-        <p class="text">Consigue pasantías de todo el mundo, que se
-          ajusten a tus necesidades con solo responder unas preguntas simples.
-        </p>
-      </div>
-      <div class="right-col">
-        <img class="mockup-right-col" src="img/mockup2.png">
-      </div>
-    </div>
-  </section>
-  <section class="company" id="company">
-    <div class="company-container">
-      <div class="left-col2">
-        <h2 class="sub-title2">Publica ofertas de trabajo para tu empresa</h2>
-        <p class="text2">Administra de una manera sencilla y productiva todas
-          las ofertas laborales de tu empresa y encuentra empleados que se
-          ajusten a las necesidades de tu empresa.
-        </p>
-      </div>
-      <div class="right-col">
-        <img class="mockup-right-col" src="img/mockup3.png">
-      </div>
-    </div>
-  </section>
-  <section class="mision" id="mision">
-    <div class="mision-container">
-      <div class="left-col">
-        <h2 class="sub-title">Nuestra razón de ser</h2>
-        <p class="text">Brindar un servicio de publicación de pasantías 
-          fácil de utilizar y que ofrezca resultados precisos y competentes.
-        </p>
-      </div>
-      <div class="right-col">
-        <img class="mockup-right-col" src="img/mockup4.png">
-      </div>
-    </div>
-  </section>
-  <section class="vision" id="vision">
-    <div class="vision-container">
-      <div class="left-col2">
-        <h2 class="sub-title2">A donde queremos llegar como empresa</h2>
-        <p class="text2">Ser la aplicación de pasantías y prácticas
-          preprofesionales preferida por los usuarios en todo el mundo.
-        </p>
-      </div>
-      <div class="right-col">
-        <img class="mockup-right-col" src="img/mockup5.png">
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p>Copyright &copy; Interlab 2021</p>
-  </footer>
+    <section class="main" id="main">
+        <h1 class="title">Encuentra las mejores pasantías</h1>
+        <button class="cta-btn">Empieza ya</button>
+        <img class="mockup" src="img/mockup1.png">
+    </section>
+    <section class="student" id="student">
+        <div class="student-container">
+            <div class="left-col">
+                <h2 class="sub-title">Obtén ofertas de pasantías relevantes</h2>
+                <p class="text">Consigue pasantías de todo el mundo, que se ajusten a tus necesidades con solo responder unas preguntas simples.
+                </p>
+            </div>
+            <div class="right-col">
+                <img class="mockup-right-col" src="img/mockup2.png">
+            </div>
+        </div>
+    </section>
+    <section class="company" id="company">
+        <div class="company-container">
+            <div class="left-col2">
+                <h2 class="sub-title2">Publica ofertas de trabajo para tu empresa</h2>
+                <p class="text2">Administra de una manera sencilla y productiva todas las ofertas laborales de tu empresa y encuentra empleados que se ajusten a las necesidades de tu empresa.
+                </p>
+            </div>
+            <div class="right-col">
+                <img class="mockup-right-col" src="img/mockup3.png">
+            </div>
+        </div>
+    </section>
+    <section class="mision" id="mision">
+        <div class="mision-container">
+            <div class="left-col">
+                <h2 class="sub-title">Nuestra razón de ser</h2>
+                <p class="text">Brindar un servicio de publicación de pasantías fácil de utilizar y que ofrezca resultados precisos y competentes.
+                </p>
+            </div>
+            <div class="right-col">
+                <img class="mockup-right-col" src="img/mockup4.png">
+            </div>
+        </div>
+    </section>
+    <section class="vision" id="vision">
+        <div class="vision-container">
+            <div class="left-col2">
+                <h2 class="sub-title2">A donde queremos llegar como empresa</h2>
+                <p class="text2">Ser la aplicación de pasantías y prácticas preprofesionales preferida por los usuarios en todo el mundo.
+                </p>
+            </div>
+            <div class="right-col">
+                <img class="mockup-right-col" src="img/mockup5.png">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; InterLab 2021</p>
+    </footer>
 </body>
 
 </html>
