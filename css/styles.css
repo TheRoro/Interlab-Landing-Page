@@ -47,7 +47,8 @@ body {
 .student,
 .company,
 .mision,
-.vision {
+.vision,
+.contact {
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
@@ -86,6 +87,7 @@ body {
     cursor: pointer;
     outline: none;
     margin: 1rem;
+    text-decoration: none;
 }
 
 .cta-btn:hover {
@@ -104,11 +106,18 @@ body {
 .student-container,
 .company-container,
 .mision-container,
-.vision-container {
+.vision-container,
+.contact-container {
     box-sizing: border-box;
     display: flex;
     width: 100%;
     margin-top: 4rem;
+}
+
+.contact-container {
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 0;
 }
 
 .student-container,
@@ -170,10 +179,67 @@ body {
 }
 
 footer {
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.copy-container {
+    margin-top: 2rem;
+}
+
+.fab {
+    margin: 0 1rem;
+}
+
+.contact-title {
+    color: #282A3F;
+    font-size: calc(24px + 2.4vw);
+    font-family: 'Gilroy Medium';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-subtitle {
+    color: #282A3F;
+    font-size: calc(13px + 1.5vw);
+    font-family: 'Gilroy Medium';
+    text-align: center;
+}
+
+.contact-btn {
+    width: 15vw;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-size: calc(14px + 1vw);
+    font-family: 'Gilroy Medium';
+    text-align: center;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.email {
+    background: #282A3F;
+    color: #ffffff;
+}
+
+.facebook {
+    background: #4267B2;
+    color: #ffffff;
+}
+
+.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1000px) {
@@ -183,13 +249,15 @@ footer {
     .student,
     .company,
     .mision,
-    .vision {
+    .vision,
+    .contact {
         padding-top: 5vh;
     }
     .student-container,
     .company-container,
     .mision-container,
-    .vision-container {
+    .vision-container,
+    .contact-container {
         flex-direction: column;
         margin: 2rem;
     }
@@ -218,6 +286,9 @@ footer {
     .mockup-right-col {
         width: 80%;
     }
+    .contact-btn {
+        width: 30vw;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -233,7 +304,8 @@ footer {
     .student-container,
     .company-container,
     .mision-container,
-    .vision-container {
+    .vision-container,
+    .contact-container {
         flex-direction: column;
         margin: .5rem;
     }
@@ -246,5 +318,8 @@ footer {
     .text,
     .text2 {
         width: 100%;
+    }
+    .contact-btn {
+        width: 60vw;
     }
 }
