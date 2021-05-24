@@ -13,8 +13,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(241, 245, 251);
-    background: linear-gradient(103deg, rgba(241, 245, 251, 1) 0%, rgba(228, 236, 248, 1) 52%, rgba(241, 245, 251, 1) 100%);
+    background: rgb(252, 253, 255);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -43,7 +42,6 @@ body {
     font-size: 16px;
 }
 
-.main,
 .student,
 .company,
 .mision,
@@ -54,53 +52,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.main {
-    align-items: center;
-    justify-content: center;
-}
-
-@media screen and (min-width: 800px) {
-    .main {
-        padding-top: 17vh;
-    }
-}
-
-.title {
-    color: #282A3F;
-    margin: 2rem;
-    font-size: calc(26px + 2.5vw);
-    font-family: 'Gilroy Medium';
-    text-align: center;
-}
-
-.cta-btn {
-    background: #2699FB;
-    padding: 1.2rem 3rem;
-    border-radius: 10px;
-    border: none;
-    color: #ffffff;
-    font-size: 1.1rem;
-    box-shadow: 0px 10px 10px rgba(93, 190, 255, 0.4);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    margin: 1rem;
-    text-decoration: none;
-}
-
-.cta-btn:hover {
-    background: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    transform: translateY(-5px);
-}
-
-.mockup {
-    margin: 3rem;
-    width: 65%;
-    border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .student-container,
@@ -243,9 +194,6 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-    .main {
-        padding-top: 15vh;
-    }
     .student,
     .company,
     .mision,
@@ -253,6 +201,7 @@ footer {
     .contact {
         padding-top: 5vh;
     }
+    .main-container,
     .student-container,
     .company-container,
     .mision-container,
@@ -279,10 +228,6 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    .mockup {
-        width: 80%;
-        margin-bottom: 0;
-    }
     .mockup-right-col {
         width: 80%;
     }
@@ -292,12 +237,6 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-    .cta-btn {
-        padding: 1rem 2rem;
-    }
-    .mockup {
-        width: 90%;
-    }
     .mockup-right-col {
         width: 90%;
     }

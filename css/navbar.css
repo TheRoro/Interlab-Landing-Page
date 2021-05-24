@@ -67,7 +67,7 @@ nav {
     left: 0;
     background: #282A3F;
     box-shadow: 0px 10px 10px rgba(74, 76, 105, 0.4);
-    width: 100%;
+    width: 100vw;
     height: 37vh;
     transform: scale(1, 0);
     transform-origin: top;
@@ -114,8 +114,9 @@ nav a:hover {
 .logo {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
+    margin-left: 0;
 }
 
 .logo:hover {
@@ -129,13 +130,15 @@ nav a:hover {
     }
     header {
         display: grid;
-        height: 10vh;
-        grid-template-columns: 1fr auto minmax(600px, 6fr) 1fr;
+        height: 13vh;
+        grid-template-columns: 1fr auto minmax(600px, 6fr);
         align-items: center;
+        justify-content: flex-end;
     }
     .logo {
         grid-column: 1 / 3;
-        font-size: 1.6rem;
+        font-size: 2.8rem;
+        margin-left: 4rem;
     }
     nav {
         all: unset;
@@ -146,10 +149,11 @@ nav a:hover {
         background: none;
         top: initial;
         left: initial;
-        grid-column: 3 / 4;
+        grid-column: 3 / 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        margin-right: 1rem;
     }
     nav ul {
         display: flex;
@@ -157,7 +161,7 @@ nav a:hover {
         align-items: center;
     }
     nav li {
-        margin-left: 3em;
+        margin-left: 2rem;
         margin-bottom: 0;
         padding: 0;
     }
@@ -166,7 +170,7 @@ nav a:hover {
         opacity: 1;
         position: relative;
         transition: color .2s ease-in-out;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     nav a:hover {
         transition: color .2s ease-in-out;
